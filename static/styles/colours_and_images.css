@@ -2,6 +2,6 @@ body {
     background-color: rgb(25, 25, 25);
 }
 
-#header-main {
+.header-main {
     background-image: url("/static/images/Us_Shooting.jpg")
 }
