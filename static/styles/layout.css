@@ -1,5 +1,9 @@
+body {
+    background-image: url('/static/images/Onion\ Plasmolysis\ 2.JPG');
+}
+
 .header-main {
-    background: url('/static/images/My_Face.jpg') no-repeat top left;
+    /*background: url('/static/images/My_Face.jpg') no-repeat top left;*/
     width: 100%;
     height: 500px;
 }
