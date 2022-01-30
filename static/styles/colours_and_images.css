@@ -3,5 +3,5 @@ body {
 }
 
 #header-main {
-    background-image: url('/static/images/Us_Shooting.jpg')
+    background-image: url("/static/images/Us_Shooting.jpg")
 }
