@@ -3,5 +3,5 @@ body {
 }
 
 .header-main {
-    background-image: url(/static/images/My_Face.jpg)
+    background: url('/static/images/My_Face.jpg') no-repeat top left;
 }
