@@ -1,5 +1,5 @@
 body {
-    background-image: url("/static/images/download.png");
+    background-image: url("../images/download.png");
     background-color: #cccccc;
 }
 
