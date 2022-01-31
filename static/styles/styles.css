@@ -5,12 +5,18 @@ body {
 }
 
 .header-main {
+    /* Background image and its positioning */
     background: url('../images/Onion\ Plasmolysis\ 2.JPG') no-repeat top left;
     
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
+    /* Div size */
     width: 100%;
     height: 500px;
+}
+
+.title_main {
+    backdrop-filter: blur(5px);
 }
