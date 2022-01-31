@@ -1,13 +1,23 @@
 body {
-    background-color: "white";/* rgb(25, 25, 25); */
+    /* Div size */
     margin: 0;
     padding: 0;
-}
+
+    /* Background */
+    background-color: rgb(247, 248, 252);
+
+    /* Font etc. */
+    font-family: Arial, Helvetica, sans-serif;
+
+    }
 
 .header-main {
     /* Div size */
     width: 100%;
     height: 500px;
+
+    /* Div positioning */
+    display: flex;
 
     /* Background image and its positioning */
     background: url('../images/Onion\ Plasmolysis\ 2.JPG') no-repeat top left;
@@ -20,16 +30,28 @@ body {
 
 .title-main {
     /* Div size */
-    width: 100px;
-    height: 50px;
+    width: 50%;
+    height: 50%;
 
     /* Div position */
-    position: absolute;
-    left: 50%;
-    top: 50%;
+    margin: auto;
 
     /* Div background */
-    background-color: rgba(0, 0, 0, 0.61);
+    background-color: rgba(255, 255, 255, 0.4);
     backdrop-filter: blur(5px);
-    
+
+    /* Rounded corners and outline */
+    border-radius: 10px;
+    outline: 5px solid rgba(255, 255, 255, 0.4);
+    outline-offset: -10px;
+
+    /* Text alignment */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 { 
+    font-size: 48px;
 }
